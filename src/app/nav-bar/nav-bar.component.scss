@@ -1,0 +1,56 @@
+.navigaton-bar {
+  width: 100%;
+  display: flex;
+  font-family: Quicksand, sans-serif !important;
+  background-color: white;
+  position: fixed;
+  z-index: 10;
+  padding: 0px 5px;
+  border-bottom: 1px solid #f3f3f3;
+  .link-section,
+  .logo-section {
+    flex: 1;
+    display: flex;
+  }
+  .logo-section {
+    align-items: center;
+    img {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      object-position: center;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: normal;
+    }
+  }
+  .link-section {
+    flex-direction: row-reverse;
+    ul {
+      display: flex;
+      align-items: center;
+    }
+    ul li {
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    ul li {
+      a.link {
+        color: #000;
+      }
+      a.link-button {
+        color: #fff;
+      }
+      a.link-button:hover {
+        text-decoration: none;
+      }
+      a.link-button:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
